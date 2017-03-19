@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2EDDE841E7E188100D4DA80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EDDE831E7E188100D4DA80 /* AppDelegate.swift */; };
+		C2EDDE861E7E188100D4DA80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EDDE851E7E188100D4DA80 /* ViewController.swift */; };
+		C2EDDE891E7E188100D4DA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EDDE871E7E188100D4DA80 /* Main.storyboard */; };
+		C2EDDE8C1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2EDDE8A1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodeld */; };
+		C2EDDE8E1E7E188100D4DA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EDDE8D1E7E188100D4DA80 /* Assets.xcassets */; };
+		C2EDDE911E7E188100D4DA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EDDE8F1E7E188100D4DA80 /* LaunchScreen.storyboard */; };
+		C2EDDE9C1E7E188100D4DA80 /* BharathAJPlusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EDDE9B1E7E188100D4DA80 /* BharathAJPlusAppTests.swift */; };
+		C2EDDEA71E7E188100D4DA80 /* BharathAJPlusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EDDEA61E7E188100D4DA80 /* BharathAJPlusAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2EDDE981E7E188100D4DA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2EDDE781E7E188100D4DA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2EDDE7F1E7E188100D4DA80;
+			remoteInfo = BharathAJPlusApp;
+		};
+		C2EDDEA31E7E188100D4DA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2EDDE781E7E188100D4DA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2EDDE7F1E7E188100D4DA80;
+			remoteInfo = BharathAJPlusApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2EDDE801E7E188100D4DA80 /* BharathAJPlusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BharathAJPlusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EDDE831E7E188100D4DA80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2EDDE851E7E188100D4DA80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2EDDE881E7E188100D4DA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2EDDE8B1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BharathAJPlusApp.xcdatamodel; sourceTree = "<group>"; };
+		C2EDDE8D1E7E188100D4DA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2EDDE901E7E188100D4DA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2EDDE921E7E188100D4DA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EDDE971E7E188100D4DA80 /* BharathAJPlusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BharathAJPlusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EDDE9B1E7E188100D4DA80 /* BharathAJPlusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BharathAJPlusAppTests.swift; sourceTree = "<group>"; };
+		C2EDDE9D1E7E188100D4DA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EDDEA21E7E188100D4DA80 /* BharathAJPlusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BharathAJPlusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EDDEA61E7E188100D4DA80 /* BharathAJPlusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BharathAJPlusAppUITests.swift; sourceTree = "<group>"; };
+		C2EDDEA81E7E188100D4DA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2EDDE7D1E7E188100D4DA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EDDE941E7E188100D4DA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EDDE9F1E7E188100D4DA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2EDDE771E7E188100D4DA80 = {
+			isa = PBXGroup;
+			children = (
+				C2EDDE821E7E188100D4DA80 /* BharathAJPlusApp */,
+				C2EDDE9A1E7E188100D4DA80 /* BharathAJPlusAppTests */,
+				C2EDDEA51E7E188100D4DA80 /* BharathAJPlusAppUITests */,
+				C2EDDE811E7E188100D4DA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2EDDE811E7E188100D4DA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2EDDE801E7E188100D4DA80 /* BharathAJPlusApp.app */,
+				C2EDDE971E7E188100D4DA80 /* BharathAJPlusAppTests.xctest */,
+				C2EDDEA21E7E188100D4DA80 /* BharathAJPlusAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2EDDE821E7E188100D4DA80 /* BharathAJPlusApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2EDDE831E7E188100D4DA80 /* AppDelegate.swift */,
+				C2EDDE851E7E188100D4DA80 /* ViewController.swift */,
+				C2EDDE871E7E188100D4DA80 /* Main.storyboard */,
+				C2EDDE8D1E7E188100D4DA80 /* Assets.xcassets */,
+				C2EDDE8F1E7E188100D4DA80 /* LaunchScreen.storyboard */,
+				C2EDDE921E7E188100D4DA80 /* Info.plist */,
+				C2EDDE8A1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodeld */,
+			);
+			path = BharathAJPlusApp;
+			sourceTree = "<group>";
+		};
+		C2EDDE9A1E7E188100D4DA80 /* BharathAJPlusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2EDDE9B1E7E188100D4DA80 /* BharathAJPlusAppTests.swift */,
+				C2EDDE9D1E7E188100D4DA80 /* Info.plist */,
+			);
+			path = BharathAJPlusAppTests;
+			sourceTree = "<group>";
+		};
+		C2EDDEA51E7E188100D4DA80 /* BharathAJPlusAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2EDDEA61E7E188100D4DA80 /* BharathAJPlusAppUITests.swift */,
+				C2EDDEA81E7E188100D4DA80 /* Info.plist */,
+			);
+			path = BharathAJPlusAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2EDDE7F1E7E188100D4DA80 /* BharathAJPlusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EDDEAB1E7E188100D4DA80 /* Build configuration list for PBXNativeTarget "BharathAJPlusApp" */;
+			buildPhases = (
+				C2EDDE7C1E7E188100D4DA80 /* Sources */,
+				C2EDDE7D1E7E188100D4DA80 /* Frameworks */,
+				C2EDDE7E1E7E188100D4DA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BharathAJPlusApp;
+			productName = BharathAJPlusApp;
+			productReference = C2EDDE801E7E188100D4DA80 /* BharathAJPlusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2EDDE961E7E188100D4DA80 /* BharathAJPlusAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EDDEAE1E7E188100D4DA80 /* Build configuration list for PBXNativeTarget "BharathAJPlusAppTests" */;
+			buildPhases = (
+				C2EDDE931E7E188100D4DA80 /* Sources */,
+				C2EDDE941E7E188100D4DA80 /* Frameworks */,
+				C2EDDE951E7E188100D4DA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2EDDE991E7E188100D4DA80 /* PBXTargetDependency */,
+			);
+			name = BharathAJPlusAppTests;
+			productName = BharathAJPlusAppTests;
+			productReference = C2EDDE971E7E188100D4DA80 /* BharathAJPlusAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2EDDEA11E7E188100D4DA80 /* BharathAJPlusAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EDDEB11E7E188100D4DA80 /* Build configuration list for PBXNativeTarget "BharathAJPlusAppUITests" */;
+			buildPhases = (
+				C2EDDE9E1E7E188100D4DA80 /* Sources */,
+				C2EDDE9F1E7E188100D4DA80 /* Frameworks */,
+				C2EDDEA01E7E188100D4DA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2EDDEA41E7E188100D4DA80 /* PBXTargetDependency */,
+			);
+			name = BharathAJPlusAppUITests;
+			productName = BharathAJPlusAppUITests;
+			productReference = C2EDDEA21E7E188100D4DA80 /* BharathAJPlusAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2EDDE781E7E188100D4DA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bharath Sirangi";
+				TargetAttributes = {
+					C2EDDE7F1E7E188100D4DA80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C2EDDE961E7E188100D4DA80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2EDDE7F1E7E188100D4DA80;
+					};
+					C2EDDEA11E7E188100D4DA80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2EDDE7F1E7E188100D4DA80;
+					};
+				};
+			};
+			buildConfigurationList = C2EDDE7B1E7E188100D4DA80 /* Build configuration list for PBXProject "BharathAJPlusApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2EDDE771E7E188100D4DA80;
+			productRefGroup = C2EDDE811E7E188100D4DA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2EDDE7F1E7E188100D4DA80 /* BharathAJPlusApp */,
+				C2EDDE961E7E188100D4DA80 /* BharathAJPlusAppTests */,
+				C2EDDEA11E7E188100D4DA80 /* BharathAJPlusAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2EDDE7E1E7E188100D4DA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EDDE911E7E188100D4DA80 /* LaunchScreen.storyboard in Resources */,
+				C2EDDE8E1E7E188100D4DA80 /* Assets.xcassets in Resources */,
+				C2EDDE891E7E188100D4DA80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EDDE951E7E188100D4DA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EDDEA01E7E188100D4DA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2EDDE7C1E7E188100D4DA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EDDE861E7E188100D4DA80 /* ViewController.swift in Sources */,
+				C2EDDE841E7E188100D4DA80 /* AppDelegate.swift in Sources */,
+				C2EDDE8C1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EDDE931E7E188100D4DA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EDDE9C1E7E188100D4DA80 /* BharathAJPlusAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EDDE9E1E7E188100D4DA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EDDEA71E7E188100D4DA80 /* BharathAJPlusAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2EDDE991E7E188100D4DA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2EDDE7F1E7E188100D4DA80 /* BharathAJPlusApp */;
+			targetProxy = C2EDDE981E7E188100D4DA80 /* PBXContainerItemProxy */;
+		};
+		C2EDDEA41E7E188100D4DA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2EDDE7F1E7E188100D4DA80 /* BharathAJPlusApp */;
+			targetProxy = C2EDDEA31E7E188100D4DA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2EDDE871E7E188100D4DA80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2EDDE881E7E188100D4DA80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2EDDE8F1E7E188100D4DA80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2EDDE901E7E188100D4DA80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2EDDEA91E7E188100D4DA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2EDDEAA1E7E188100D4DA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2EDDEAC1E7E188100D4DA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BharathAJPlusApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.BharathAJPlusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2EDDEAD1E7E188100D4DA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BharathAJPlusApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.BharathAJPlusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2EDDEAF1E7E188100D4DA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BharathAJPlusAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.BharathAJPlusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BharathAJPlusApp.app/BharathAJPlusApp";
+			};
+			name = Debug;
+		};
+		C2EDDEB01E7E188100D4DA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BharathAJPlusAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.BharathAJPlusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BharathAJPlusApp.app/BharathAJPlusApp";
+			};
+			name = Release;
+		};
+		C2EDDEB21E7E188100D4DA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BharathAJPlusAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.BharathAJPlusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BharathAJPlusApp;
+			};
+			name = Debug;
+		};
+		C2EDDEB31E7E188100D4DA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BharathAJPlusAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bharath.BharathAJPlusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BharathAJPlusApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2EDDE7B1E7E188100D4DA80 /* Build configuration list for PBXProject "BharathAJPlusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EDDEA91E7E188100D4DA80 /* Debug */,
+				C2EDDEAA1E7E188100D4DA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EDDEAB1E7E188100D4DA80 /* Build configuration list for PBXNativeTarget "BharathAJPlusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EDDEAC1E7E188100D4DA80 /* Debug */,
+				C2EDDEAD1E7E188100D4DA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2EDDEAE1E7E188100D4DA80 /* Build configuration list for PBXNativeTarget "BharathAJPlusAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EDDEAF1E7E188100D4DA80 /* Debug */,
+				C2EDDEB01E7E188100D4DA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2EDDEB11E7E188100D4DA80 /* Build configuration list for PBXNativeTarget "BharathAJPlusAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EDDEB21E7E188100D4DA80 /* Debug */,
+				C2EDDEB31E7E188100D4DA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2EDDE8A1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2EDDE8B1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodel */,
+			);
+			currentVersion = C2EDDE8B1E7E188100D4DA80 /* BharathAJPlusApp.xcdatamodel */;
+			path = BharathAJPlusApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2EDDE781E7E188100D4DA80 /* Project object */;
+}
